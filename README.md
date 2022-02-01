@@ -1,2 +1,2 @@
-- Github home page's url:
-- Luogu home page's url:
+- [Github home page](https://little-cindy.github.io/lcoi/index.html)
+- [Luogu home page](https://www.luogu.com.cn/team/35878)
