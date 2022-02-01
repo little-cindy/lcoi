@@ -1,57 +1,88 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>	
 <html class="js cssanimations" lang="zh">
-  <head>  
-    <title>
-      LCOI出题组
-    </title>  
-    <style>
-      body{
-        background:#efefef;
-        /*background:url("https://cdn.luogu.com.cn/images/bg/fe/Day_And_Night_1.jpg");*/
-        background-size:cover;
-      } 
-	  button{
-	    border:none;
-		color:white;
-		border-radius:3px;
-		background:#0080ff;
-		width:90%;
-	  }
-	  div.leftlist{
-		text-align:center;
-		width:20%;
-		padding:3px;
-		border-radius:5px;
-		background:rgba(252,252,252,0.7);
-	  }
-    </style>
-  </head>
-  <body>  
-	<div class="leftlist">
-      <button id="button_block" type="button">
-        显示目录
-      </button>
-      <button id="button_none" type="button" style="display:none;">
-        隐藏目录
-      </button>
-      <div id="list" style="display:none;">
-        目录 
-      </div>
-    </div>
-    <script>
-      var btn_block = document.getElementById("button_block");
-      var btn_none = document.getElementById("button_none");
-      var lis = document.getElementById("list");
-      btn_block.onclick = function() {
-        btn_block.style.display = "none";
-        btn_none.style.display = "block";
-        lis.style.display = "block";
-      }
-      btn_none.onclick = function() {
-        btn_block.style.display = "block";
-        btn_none.style.display = "none";
-        lis.style.display = "none";
-      }
-    </script>  
-  </body>
+	<head>	
+		<title>
+			LCOI出题组
+		</title>	
+		<style>
+			body{
+				background:#efefef;
+				overflow-x: hidden;
+				/*position: absolute;*/
+				/*background:url("https://cdn.luogu.com.cn/images/bg/fe/Day_And_Night_1.jpg");*/
+				background-size:cover;
+			} 
+			button.a{
+				font-size:25px; 
+				border:none;
+				color:white;
+				border-radius:3px;
+				background:#0080ff;
+				width:20%;
+			}
+			button.b{
+				font-size:25px;
+				border:none;
+				color:white;
+				margin:2%;
+				border-radius:3px;
+				background:#0080ff;
+				width:96%;
+			}
+			div.leftlist{
+				font-size:25px; 
+				text-align:center;
+				width:20%;
+				padding:3px;
+				border-radius:5px;
+				background:rgba(252,252,252,0.7);
+			}
+			#header{
+			    background-color:black;
+			    color:white;
+			    text-align:center;
+				padding:1px;
+			}
+			b.header{
+				font-size:40px;
+			}
+		</style>
+	</head>
+	<body>	
+		<div id="header">
+			<b class="header">
+				LCOI出题组
+			</b>
+		</div>
+		<br>
+		<button class="a" id="button_block" type="button">
+			显示目录
+		</button>
+		<div id="leftlist" class="leftlist" style="display:none;">
+			<div id="list" style="display:none;">
+				目录 
+			</div>
+			<button class="b" id="button_none" type="button" style="display:none;">
+				隐藏目录
+			</button>
+		</div>
+		<script>
+			var btn_block = document.getElementById("button_block");
+			var btn_none = document.getElementById("button_none");
+			var lis = document.getElementById("list");
+			var l_lis = document.getElementById("leftlist");
+			btn_block.onclick = function() {
+				btn_block.style.display = "none";
+				btn_none.style.display = "block";
+				lis.style.display = "block";
+				l_lis.style.display = "block";
+			}
+			btn_none.onclick = function() {
+				btn_block.style.display = "block";
+				btn_none.style.display = "none";
+				lis.style.display = "none";
+				l_lis.style.display = "none";
+			}
+		</script>	
+	</body>
 </html>
