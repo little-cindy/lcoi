@@ -1,2 +1,2 @@
-# lcoi
-LCOI problem group's home page
+- Github home page's url:
+- Luogu home page's url:
