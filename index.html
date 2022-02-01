@@ -1,10 +1,39 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zh">
-  <head>
-  </head>
-  <body style="background:url(https://cdn.luogu.com.cn/images/bg/fe/Day_And_Night_1.jpg);width:100%;height:100%;">
-    <button id="button_block" type="button" style="display">
-    <script>
-      
-  </body>
+<!DOCTYPE html>  
+<html class="js cssanimations" lang="zh">  
+	<head>  
+		<title>
+			LCOI出题组
+		</title>  
+		<style>
+			body{
+				background:url("https://cdn.luogu.com.cn/images/bg/fe/Day_And_Night_1.jpg");
+				background-size:cover;
+			} 
+	</head>  
+	<body>  
+		<div id="list" style="display:none;">
+			目录 
+		</div>
+		<button id="button_block" type="button">
+			显示
+		</button>
+		<button id="button_none" type="button" style="display:none;">
+			隐藏
+		</button>
+		<script>
+			var btn_block = document.getElementById("button_block");
+			var btn_none = document.getElementById("button_none");
+			var lis = document.getElementById("list");
+			btn_bloack.onclick = function() {
+				btn_block.style.display = "none";
+				btn_none.style.display = "block";
+				lis.style.display = "block";
+			}
+			btn_none.onclick = function() {
+				btn_block.style.display = "block";
+				btn_none.style.display = "none";
+				lis.style.display = "none";
+			}
+		</script>  
+	</body>  
 </html>
