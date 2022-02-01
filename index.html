@@ -1,31 +1,48 @@
 <!DOCTYPE html>  
-<html class="js cssanimations" lang="zh">  
+<html class="js cssanimations" lang="zh">
   <head>  
     <title>
       LCOI出题组
     </title>  
     <style>
       body{
-        background:url("https://cdn.luogu.com.cn/images/bg/fe/Day_And_Night_1.jpg");
+        background:#efefef;
+        /*background:url("https://cdn.luogu.com.cn/images/bg/fe/Day_And_Night_1.jpg");*/
         background-size:cover;
       } 
+	  button{
+	    border:none;
+		color:white;
+		border-radius:3px;
+		background:#0080ff;
+		width:90%;
+	  }
+	  div.leftlist{
+		text-align:center;
+		width:20%;
+		padding:3px;
+		border-radius:5px;
+		background:rgba(252,252,252,0.7);
+	  }
     </style>
-  </head>  
+  </head>
   <body>  
-    <div id="list" style="display:none;">
-      目录 
+	<div class="leftlist">
+      <button id="button_block" type="button">
+        显示目录
+      </button>
+      <button id="button_none" type="button" style="display:none;">
+        隐藏目录
+      </button>
+      <div id="list" style="display:none;">
+        目录 
+      </div>
     </div>
-    <button id="button_block" type="button">
-      显示
-    </button>
-    <button id="button_none" type="button" style="display:none;">
-      隐藏
-    </button>
     <script>
       var btn_block = document.getElementById("button_block");
       var btn_none = document.getElementById("button_none");
       var lis = document.getElementById("list");
-      btn_bloack.onclick = function() {
+      btn_block.onclick = function() {
         btn_block.style.display = "none";
         btn_none.style.display = "block";
         lis.style.display = "block";
@@ -36,5 +53,5 @@
         lis.style.display = "none";
       }
     </script>  
-  </body>  
+  </body>
 </html>
