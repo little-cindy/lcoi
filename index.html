@@ -1,6 +1,7 @@
 <!DOCTYPE html>	
 <html class="js cssanimations" lang="zh">
 	<head>	
+		<link rel="shortcut icon" href="picture//icon.png">
 		<title>
 			LCOI出题组
 		</title>	
@@ -13,21 +14,22 @@
 				background-size:cover;
 			} 
 			button.a{
-				font-size:25px; 
+				font-size:20px; 
 				border:none;
 				color:white;
 				border-radius:3px;
 				background:#0080ff;
 				width:20%;
+				float:left;
 			}
 			button.b{
-				font-size:25px;
+				font-size:20px;
 				border:none;
 				color:white;
 				margin:2%;
 				border-radius:3px;
 				background:#0080ff;
-				width:96%;
+				width:93%;
 			}
 			div.leftlist{
 				font-size:25px; 
@@ -36,6 +38,14 @@
 				padding:3px;
 				border-radius:5px;
 				background:rgba(252,252,252,0.7);
+				float:left;
+			}
+			div.maintext{
+				background:rgba(252,252,252,0.7);
+				padding:3px;
+				border-radius:5px;
+				width:78%;
+				float:right;
 			}
 			#header{
 			    background-color:black;
@@ -51,7 +61,7 @@
 	<body>	
 		<div id="header">
 			<b class="header">
-				LCOI出题组
+				LCOI官方网站
 			</b>
 		</div>
 		<br>
@@ -65,6 +75,9 @@
 			<button class="b" id="button_none" type="button" style="display:none;">
 				隐藏目录
 			</button>
+		</div>
+		<div class="maintext">
+			<p>
 		</div>
 		<script>
 			var btn_block = document.getElementById("button_block");
