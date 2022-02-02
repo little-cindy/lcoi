@@ -6,6 +6,9 @@
 			LCOI出题组
 		</title>	
 		<style>
+			a{
+				text-decoration:none;
+			}
 			body{
 				background:#efefef;
 				overflow-x: hidden;
@@ -17,19 +20,41 @@
 				font-size:20px; 
 				border:none;
 				color:white;
-				border-radius:3px;
+				border-radius:5px;
 				background:#0080ff;
 				width:20%;
 				float:left;
+				transition:color 0.3s,background 0.3s,border 0.3s;
+			}
+			button.a:hover{
+				border:1px solid #0080ff;
+				color:#0080ff;
+				background:white;
+			}
+			button.a:active{
+				border:none;
+				color:white;
+				background:#0080ff;
 			}
 			button.b{
 				font-size:20px;
 				border:none;
 				color:white;
 				margin:2%;
-				border-radius:3px;
+				border-radius:5px;
 				background:#0080ff;
 				width:93%;
+				transition:color 0.3s,background 0.3s,border 0.3s;
+			}
+			button.b:hover{
+				border:1px solid #0080ff;
+				color:#0080ff;
+				background:white;
+			}
+			button.b:active{
+				border:none;
+				color:white;
+				background:#0080ff;
 			}
 			div.leftlist{
 				font-size:25px; 
@@ -46,6 +71,19 @@
 				border-radius:5px;
 				width:78%;
 				float:right;
+			}
+			div.lt{
+				font-size:20px;
+				border:none;
+				color:white;
+				margin:2%;
+				border-radius:5px;
+				background:rgba(0,0,0,0.7);
+				width:93%;
+				transition:background 0.5s;
+			}
+			div.lt:hover{
+				background:rgba(100,100,100,0.7);
 			}
 			#header{
 			    background-color:black;
@@ -72,15 +110,26 @@
 			<div id="list" style="display:none;">
 				目录 
 			</div>
+			<a href="https://little-cindy.github.io/lcoi/index.html">
+				<div class="lt">
+					团队主页 
+				</div>
+			</a>
 			<button class="b" id="button_none" type="button" style="display:none;">
 				隐藏目录
 			</button>
 		</div>
 		<div class="maintext">
-			<h1>一级标题</h1>
-			<h2>二级标题</h2>
-			<h3>三级标题</h3>
-			<p>正文</p>
+			<img width="605px" height="109px" src="picture/1.png" alt="LCOI宣传图，你看到这个的时候说明图挂掉了">
+			<p>大家好，这里是LCOI出题组的github主页。</p>
+			<h2>出题团链接</h2>
+			<ul>
+			<li><a href="https://www.luogu.com.cn/team/36119">公开赛团</a></li>
+			<li><a href="https://www.luogu.com.cn/team/35878">主团</a></li>
+			<li><a href="https://www.luogu.com.cn/team/39625">新人团</a></li>
+			</ul> 
+			<hr />
+			<p>github仓库地址：<a href="https://github.com/little-cindy/lcoi">https://github.com/little-cindy/lcoi</a></p>
 		</div>
 		<script>
 			var btn_block = document.getElementById("button_block");
