@@ -11,4 +11,4 @@ If you are an user of luogu,too.You can search 'little_cindy' in [the chat page 
 But...This page is building.So it can't be used now.
 - [Luogu home page](https://www.luogu.com.cn/team/35878)
 ## releases
-You can download Zip of historical releases in [here](https://github.com/little-cindy/lcoi/releases).
+You can download Zip of historical releases at [here](https://github.com/little-cindy/lcoi/releases).
