@@ -10,5 +10,7 @@ If you are an user of luogu,too.You can search 'little_cindy' in [the chat page 
 - [Github home page](https://little-cindy.github.io/lcoi/index.html)
 But...This page is building.So it can't be used now.
 - [Luogu home page](https://www.luogu.com.cn/team/35878)
-## releases
+## Releases
 You can download Zip of historical releases at [here](https://github.com/little-cindy/lcoi/releases).
+## Statistics
+[![Page Views Count](https://badges.toozhao.com/badges/01FV253J36225C57QSRFFY0G4V/blue.svg)](https://badges.toozhao.com/stats/01FV253J36225C57QSRFFY0G4V "Get your own page views count badge on badges.toozhao.com")
