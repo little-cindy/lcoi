@@ -1,153 +1,95 @@
-<!DOCTYPE html>	
+<!DOCTYPE html>
 <html class="js cssanimations" lang="zh">
-	<head>	
-		<link rel="shortcut icon" href="picture//icon.png">
-		<title>
-			LCOI出题组
-		</title>	
-		<style>
-			a{
-				text-decoration:none;
-			}
-			body{
-				background:#efefef;
-				overflow-x: hidden;
-				/*position: absolute;*/
-				/*background:url("https://cdn.luogu.com.cn/images/bg/fe/Day_And_Night_1.jpg");*/
-				background-size:cover;
-			} 
-			button.a{
-				font-size:20px; 
-				border:none;
-				color:white;
-				border-radius:5px;
-				background:#0080ff;
-				width:20%;
-				float:left;
-				transition:color 0.3s,background 0.3s,border 0.3s;
-			}
-			button.a:hover{
-				border:1px solid #0080ff;
-				color:#0080ff;
-				background:white;
-			}
-			button.a:active{
-				border:none;
-				color:white;
-				background:#0080ff;
-			}
-			button.b{
-				font-size:20px;
-				border:none;
-				color:white;
-				margin:2%;
-				border-radius:5px;
-				background:#0080ff;
-				width:93%;
-				transition:color 0.3s,background 0.3s,border 0.3s;
-			}
-			button.b:hover{
-				border:1px solid #0080ff;
-				color:#0080ff;
-				background:white;
-			}
-			button.b:active{
-				border:none;
-				color:white;
-				background:#0080ff;
-			}
-			div.leftlist{
-				font-size:25px; 
-				text-align:center;
-				width:20%;
-				padding:3px;
-				border-radius:5px;
-				background:rgba(252,252,252,0.7);
-				float:left;
-			}
-			div.maintext{
-				background:rgba(252,252,252,0.7);
-				padding:3px;
-				border-radius:5px;
-				width:78%;
-				float:right;
-			}
-			div.lt{
-				font-size:20px;
-				border:none;
-				color:white;
-				margin:2%;
-				border-radius:5px;
-				background:rgba(0,0,0,0.7);
-				width:93%;
-				transition:background 0.5s;
-			}
-			div.lt:hover{
-				background:rgba(100,100,100,0.7);
-			}
-			#header{
-			    background-color:black;
-			    color:white;
-			    text-align:center;
-				padding:1px;
-			}
-			b.header{
-				font-size:40px;
-			}
-		</style>
-	</head>
-	<body>	
-		<div id="header">
-			<b class="header">
-				LCOI官方网站
-			</b>
+
+<head>
+	<link rel="shortcut icon" href="picture//icon.png">
+	<title>
+		LCOI出题组
+	</title>
+	<link rel="stylesheet" type="text/css" href="CSS/a.css">
+	<link rel="stylesheet" type="text/css" href="CSS/body.css">
+	<link rel="stylesheet" type="text/css" href="CSS/btn_block.css">
+	<link rel="stylesheet" type="text/css" href="CSS/btn_none.css">
+	<link rel="stylesheet" type="text/css" href="CSS/header.css">
+	<link rel="stylesheet" type="text/css" href="CSS/leftlist.css">
+	<link rel="stylesheet" type="text/css" href="CSS/page.css">
+</head>
+
+<body>
+	<div id="header">
+		<b class="header">
+			LCOI官方网站
+		</b>
+	</div>
+	<br>
+	<button class="a" id="button_block" type="button">
+		显示目录
+	</button>
+	<div id="leftlist" class="leftlist" style="display:none;">
+		<div id="list">
+			目录
 		</div>
-		<br>
-		<button class="a" id="button_block" type="button">
-			显示目录
+		<button class="skip" id="skip0" type="button">
+			欢迎页
 		</button>
-		<div id="leftlist" class="leftlist" style="display:none;">
-			<div id="list" style="display:none;">
-				目录 
-			</div>
-			<a href="https://little-cindy.github.io/lcoi/index.html">
-				<div class="lt">
-					团队主页 
-				</div>
-			</a>
-			<button class="b" id="button_none" type="button" style="display:none;">
-				隐藏目录
-			</button>
-		</div>
-		<div class="maintext">
-			<img width="605px" height="109px" src="picture/1.png" alt="LCOI宣传图，你看到这个的时候说明图挂掉了">
-			<p>大家好，这里是LCOI出题组的github主页。</p>
-			<h2>出题团链接</h2>
-			<ul>
+		<button class="skip" id="skip1" type="button">
+			主页
+		</button>
+		<button class="b" id="button_none" type="button">
+			隐藏目录
+		</button>
+	</div>
+	<div class="maintext" id="maintext0" style="text-align: center;">
+		<h1>
+			欢迎来到LCOI出题组的github主页！
+		</h1>
+	</div>
+	<div class="maintext" id="maintext1" style="display: none;">
+		<img width="605px" height="109px" src="picture/1.png" alt="LCOI宣传图，你看到这个的时候说明图挂掉了">
+		<p>大家好，这里是LCOI出题组的github主页。</p>
+		<h2>出题团链接</h2>
+		<ul>
 			<li><a href="https://www.luogu.com.cn/team/36119">公开赛团</a></li>
 			<li><a href="https://www.luogu.com.cn/team/35878">主团</a></li>
 			<li><a href="https://www.luogu.com.cn/team/39625">新人团</a></li>
-			</ul> 
-			<hr />
-			<p>github仓库地址：<a href="https://github.com/little-cindy/lcoi">https://github.com/little-cindy/lcoi</a></p>
-		</div>
-		<script>
-			var btn_block = document.getElementById("button_block");
-			var btn_none = document.getElementById("button_none");
-			var lis = document.getElementById("list");
-			var l_lis = document.getElementById("leftlist");
-			btn_block.onclick = function() {
-				btn_block.style.display = "none";
-				btn_none.style.display = "block";
-				lis.style.display = "block";
-				l_lis.style.display = "block";
-			}
-			btn_none.onclick = function() {
-				btn_block.style.display = "block";
-				btn_none.style.display = "none";
-				lis.style.display = "none";
-				l_lis.style.display = "none";
-			}
-		</script>	
-	</body>
+		</ul>
+		<hr />
+		<p>github仓库地址：<a href="https://github.com/little-cindy/lcoi">https://github.com/little-cindy/lcoi</a></p>
+	</div>
+	<!-- 一下为leftlist脚本 -->
+	<script>
+		var btn_block = document.getElementById("button_block");
+		var btn_none = document.getElementById("button_none");
+		var lis = document.getElementById("list");
+		var l_lis = document.getElementById("leftlist");
+		btn_block.onclick = function () {
+			btn_block.style.display = "none";
+			btn_none.style.display = "block";
+			lis.style.display = "block";
+			l_lis.style.display = "block";
+		}
+		btn_none.onclick = function () {
+			btn_block.style.display = "block";
+			btn_none.style.display = "none";
+			lis.style.display = "none";
+			l_lis.style.display = "none";
+		}
+	</script>
+	<!-- 一下为textmain脚本 -->
+	<script>
+		var btn0 = document.getElementById("skip0");
+		var div0 = document.getElementById("maintext0");
+		var btn1 = document.getElementById("skip1");
+		var div1 = document.getElementById("maintext1");
+		btn0.onclick = function () {
+			div0.style.display = "block";
+			div1.style.display = "none";
+		}
+		btn1.onclick = function () {
+			div0.style.display = "none";
+			div1.style.display = "block";
+		}
+	</script>
+</body>
+
 </html>
