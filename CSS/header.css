@@ -1,0 +1,10 @@
+#header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 1px;
+}
+
+b.header {
+	font-size: 40px;
+}

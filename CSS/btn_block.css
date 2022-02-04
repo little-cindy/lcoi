@@ -1,0 +1,22 @@
+button.a {
+    font-size: 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: #0080ff;
+    width: 20%;
+    float: left;
+    transition: color 0.3s, background 0.3s, border 0.3s;
+}
+
+button.a:hover {
+    border: 1px solid #0080ff;
+    color: #0080ff;
+    background: white;
+}
+
+button.a:active {
+    border: none;
+    color: white;
+    background: #0080ff;
+}

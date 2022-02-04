@@ -1,0 +1,10 @@
+div.leftlist {
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    width: 20%;
+    padding: 3px;
+    border-radius: 5px;
+    background: rgba(252, 252, 252, 0.7);
+    float: left;
+}
