@@ -13,4 +13,6 @@ But...This page is building.So it can't be used now.
 ## Releases
 You can download Zip of historical releases at [here](https://github.com/little-cindy/lcoi/releases).
 ## Statistics
-[![Page Views Count](https://badges.toozhao.com/badges/01FV253J36225C57QSRFFY0G4V/blue.svg)](https://badges.toozhao.com/stats/01FV253J36225C57QSRFFY0G4V "Get your own page views count badge on badges.toozhao.com")
+![](https://komarev.com/ghpvc/?username=little-cindy&alt=lcoi)
+
+![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=little-cindy&repo=lcoi)
