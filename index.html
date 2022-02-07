@@ -262,6 +262,7 @@
 	</script>
 	<!-- 右侧文字切换脚本 -->
 	<script>
+		var now_open = 1;
 		var btn1 = document.getElementById("skip1");
 		var div1 = document.getElementById("maintext1");
 		var btn2 = document.getElementById("skip2");
@@ -270,11 +271,28 @@
 		var div3 = document.getElementById("maintext3");
 		var btn4 = document.getElementById("skip4");
 		var div4 = document.getElementById("maintext4");
+		function dis_now() {
+			if (now_open == 1) {
+				btn1.style.background = "";
+			}
+			if (now_open == 2) {
+				btn2.style.background = "";
+			}
+			if (now_open == 3) {
+				btn3.style.background = "";
+			}
+			if (now_open == 4) {
+				btn4.style.background = "";
+			}
+		}
 		btn1.onclick = function () {
 			div1.style.display = "block";
 			div2.style.display = "none";
 			div3.style.display = "none";
 			div4.style.display = "none";
+			dis_now();
+			now_open = 1;
+			btn1.style.background = "rgba(128, 0, 128, 0.7)";
 			title = "LCOI出题组 - 主页";
 			upt_title();
 		}
@@ -283,6 +301,9 @@
 			div2.style.display = "block";
 			div3.style.display = "none";
 			div4.style.display = "none";
+			dis_now();
+			now_open = 2;
+			btn2.style.background = "rgba(128, 0, 128, 0.7)";
 			title = "LCOI出题组 - 公开赛";
 			upt_title();
 		}
@@ -291,6 +312,9 @@
 			div2.style.display = "none";
 			div3.style.display = "block";
 			div4.style.display = "none";
+			dis_now();
+			now_open = 3;
+			btn3.style.background = "rgba(128, 0, 128, 0.7)";
 			title = "LCOI出题组 - 加团规则";
 			upt_title();
 		}
@@ -299,6 +323,9 @@
 			div2.style.display = "none";
 			div3.style.display = "none";
 			div4.style.display = "block";
+			dis_now();
+			now_open = 4;
+			btn4.style.background = "rgba(128, 0, 128, 0.7)";
 			title = "LCOI出题组 - 联系我们";
 			upt_title();
 		}
