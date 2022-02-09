@@ -14,4 +14,4 @@ You can download Zip of historical releases at [here](https://github.com/little-
 ## Statistics
 ![](https://komarev.com/ghpvc/?username=little-cindy&alt=lcoi)
 
-![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=little-cindy&repo=lcoi)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=little-cindy&repo=lcoi)](https://github.com/little-cindy/lcoi)
