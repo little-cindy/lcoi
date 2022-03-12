@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html class="js cssanimations" lang="zh">
+
+<head>
+    <link rel="shortcut icon" href="picture//icon.png">
+    <title>
+        LCOI出题组 - 主页
+    </title>
+    <!-- 去除链接下划线CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/a.css">
+    <!-- 设置背景CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/body.css">
+    <!-- “显示目录”按钮CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/btn_block.css">
+    <!-- “隐藏目录”按钮CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/btn_none.css">
+    <!-- 标题CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/header.css">
+    <!-- 左侧目录CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/leftlist/list.css">
+    <!-- 左侧目录按钮CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/leftlist/button.css">
+    <!-- 左侧目录图片CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/leftlist/photo.css">
+    <!-- 右侧文字内容CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/page.css">
+    <!-- ? -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.luogu.com.cn/fe/module.201.daa5335ef0f59464ea86.css">
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/amazeui.min.css">
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/katex.min.css">
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/luogu3.css?ver=20190102">
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/highlight_tomorrow.css">
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/markdown-palettes/markdown-palettes.css?ver=20190219">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" media="screen">
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/fe/loader.css?ver=20220307">
+    <link rel="stylesheet" href="CSS/main.css">
+    <!-- cookie脚本 -->
+    <script charset="utf-8" src="script/cookie.js"></script>
+    <script>
+        var title = "LCOI出题组 - 主页";
+        var ty = 1;
+
+        function upt_title() {
+            if (ty == 1) {
+                document.title = title;
+            }
+        }
+        window.onfocus = function() {
+            ty = 1;
+            document.title = '欢迎回来━(*｀∀´*)ノ';
+            var t = setTimeout("upt_title()", 1000);
+        };
+        window.onblur = function() {
+            ty = 0;
+            document.title = '你不要我了吗o(╥﹏╥)o';
+        };
+    </script>
+    <style>
+        .am-g {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div data-v-90bffe18="" id="app" class="lfe-vars" style="background: #efefef;">
+        <button class="a" id="button_block" type="button" style="display:none;">
+            显示目录
+        </button>
+        <nav data-v-27b2cd59="" data-v-1316252e="" data-v-90bffe18="" class="lfe-body" style="background-color: rgb(0, 0, 0); color: rgb(221, 221, 221);">
+            <div data-v-27b2cd59="" style="background-color: rgba(0, 174, 127, 0.96);">
+                <a data-v-27b2cd59="" href="/" class="logo-wrap">
+                    <img data-v-27b2cd59="" src="picture/logo-single.png" alt="Luogu">
+                </a>
+            </div>
+            <div data-v-1316252e="" data-v-27b2cd59="" class="popup-button">
+                <div id="DIV">
+                    应用
+                    <svg data-v-1316252e="" data-v-27b2cd59="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-angle-double-right fa-w-14">
+                        <path data-v-1316252e="" data-v-27b2cd59="" fill="currentColor"
+                            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
+                            class="">
+                        </path>
+                    </svg>
+                </div>
+                <div data-v-1316252e="" data-v-27b2cd59="" class="popup-wrap" id="sth" style="display: none;">
+                    <div data-v-1d675dd8="" data-v-1316252e="" class="popup" data-v-27b2cd59="">
+                        <div data-v-1d675dd8="" class="apps"><a data-v-303bbf52="" data-v-1d675dd8="" href="/theme/list" class="color-none">
+                                主题商店
+                            </a>
+                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/image" class="color-none">
+                                图片上传
+                            </a>
+                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/ide" target="_blank" colorscheme="none" class="color-none">
+                                在线 IDE
+                            </a>
+                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/paste" class="color-none">
+                                云剪贴板
+                            </a>
+                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/ranking" class="color-none">
+                                咕值排名
+                            </a>
+                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/discuss/lists?forumname=service" colorscheme="none" class="color-none">
+                                反馈问题
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a data-v-303bbf52="" data-v-639bc19b="" data-v-1316252e="" href="/problem/list" colorscheme="none" class="color-none" data-v-27b2cd59="" style="color: inherit;">
+                <span data-v-639bc19b="" data-v-303bbf52="" class="icon">
+                    <svg data-v-639bc19b="" data-v-303bbf52="" aria-hidden="true" focusable="false" data-prefix="fas"
+                        data-icon="book" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                        class="svg-inline--fa fa-book fa-w-14">
+                        <path data-v-639bc19b="" data-v-303bbf52="" fill="currentColor"
+                            d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"
+                            class="">
+                        </path>
+                    </svg>
+                </span>
+                <span data-v-639bc19b="" data-v-303bbf52="" class="text">
+                    题库
+                </span>
+            </a>
+            <a data-v-303bbf52="" data-v-639bc19b="" data-v-1316252e="" href="/training/list" colorscheme="none" class="color-none" data-v-27b2cd59="" style="color: inherit;">
+                <span data-v-639bc19b="" data-v-303bbf52="" class="icon">
+                    <svg data-v-639bc19b="" data-v-303bbf52="" aria-hidden="true" focusable="false" data-prefix="fas"
+                        data-icon="clipboard-list-check" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512" class="svg-inline--fa fa-clipboard-list-check fa-w-12">
+                        <path data-v-639bc19b="" data-v-303bbf52="" fill="currentColor"
+                            d="M336 64h-80c0-35.3-28.7-64-64-64s-64 28.7-64 64H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM192 40c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24zM65.6 209.4l12.7-12.6c2.1-2.1 5.5-2.1 7.6 0l20.6 20.8 47.6-47.2c2.1-2.1 5.5-2.1 7.6 0l12.6 12.7c2.1 2.1 2.1 5.5 0 7.6l-64.2 63.6c-2.1 2.1-5.5 2.1-7.6 0L65.6 217c-2.1-2.1-2.1-5.5 0-7.6zM96 392c-13.3 0-24-10.7-24-24s10.7-24 24-24 24 10.7 24 24-10.7 24-24 24zm224-16c0 4.4-3.6 8-8 8H168c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-128c0 4.4-4.3 8-9.6 8H154.1l32.3-32h124c5.3 0 9.6 3.6 9.6 8v16z"
+                            class="">
+                        </path>
+                    </svg>
+                </span>
+                <span data-v-639bc19b="" data-v-303bbf52="" class="text">
+                    题单
+                </span>
+            </a>
+            <a data-v-303bbf52="" data-v-639bc19b="" data-v-1316252e="" href="/contest/list" colorscheme="none" class="color-none" data-v-27b2cd59="" style="color: inherit;">
+                <span data-v-639bc19b="" data-v-303bbf52="" class="icon">
+                    <svg data-v-639bc19b="" data-v-303bbf52="" aria-hidden="true" focusable="false" data-prefix="fas"
+                        data-icon="signal" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                        class="svg-inline--fa fa-signal fa-w-20">
+                        <path data-v-639bc19b="" data-v-303bbf52="" fill="currentColor"
+                            d="M216 288h-48c-8.84 0-16 7.16-16 16v192c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V304c0-8.84-7.16-16-16-16zM88 384H40c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16zm256-192h-48c-8.84 0-16 7.16-16 16v288c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V208c0-8.84-7.16-16-16-16zm128-96h-48c-8.84 0-16 7.16-16 16v384c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V112c0-8.84-7.16-16-16-16zM600 0h-48c-8.84 0-16 7.16-16 16v480c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z"
+                            class="">
+                        </path>
+                    </svg>
+                </span>
+                <span data-v-639bc19b="" data-v-303bbf52="" class="text">
+                    比赛
+                </span>
+            </a>
+        </nav>
+        <div data-v-90bffe18="" class="main-container">
+            <div data-v-7958fe72="" data-v-90bffe18="" class="wrapper wrapped lfe-body header-layout tiny">
+                <div data-v-7958fe72="" class="background" style="background-repeat: no-repeat; background-position: 50% 100%; background-size: cover; background-color: rgb(0, 0, 0); background-image: url(&quot;https://cdn.luogu.com.cn/upload/image_hosting/tv18fzg3.png&quot;); filter: blur(0px) brightness(101%);">
+                </div>
+                <div data-v-90bffe18="" class="main-container" id="uplist">
+                    <div data-v-7958fe72="" data-v-90bffe18="" class="wrapper wrapped lfe-body header-layout tiny">
+                        <div data-v-7958fe72="" class="background" style="background-repeat: no-repeat; background-position: 50% 100%; background-size: cover; background-color: rgb(0, 0, 0); background-image: url(&quot;https://cdn.luogu.com.cn/upload/image_hosting/tv18fzg3.png&quot;); filter: blur(0px) brightness(101%);">
+                        </div>
+                        <div data-v-46cb0950="" data-v-90bffe18="" class="container" currenttheme="[object Object]" data-v-7958fe72="">
+                            <div data-v-46cb0950="" class="left">
+                                <h1>LCOI 出题组</h1>
+                            </div>
+                            <div data-v-46cb0950="" class="link-container">
+                                <a data-v-303bbf52="" data-v-46cb0950="" href="https://www.luogu.com.cn/team/39625" target="_blank" colorscheme="none" class="header-link color-none">
+                                    <b>新人团</b>
+                                </a>
+                                <a data-v-303bbf52="" data-v-46cb0950="" href="https://www.luogu.com.cn/team/35878" target="_blank" colorscheme="none" class="header-link color-none">
+                                    <b>主团</b>
+                                </a>
+                                <a data-v-303bbf52="" data-v-46cb0950="" href="https://www.luogu.com.cn/team/36119" target="_blank" colorscheme="none" class="header-link color-none">
+                                    <b>公开赛团</b>
+                                </a>
+                                <span data-v-46cb0950="" class="helper"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main data-v-90bffe18="" class="lfe-body" style="background-color: rgb(239, 239, 239);">
+                <!---->
+                <div id="app-old">
+                    <div class="lg-index-content am-center ">
+                        <div class="am-g">
+                            <div class="am-u-md-12 ">
+                                <div class="lg-article">
+                                    <div class="am-g">
+                                        暂无
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <div data-v-7958fe72="" data-v-90bffe18="" class="wrapper wrapped lfe-body background" style="background: rgb(51, 51, 51); filter: blur(0px) brightness(100%);">
+                <div data-v-009d73c6="" data-v-90bffe18="" class="footer" data-v-7958fe72="">
+                    <div data-v-009d73c6="" class="slogan">
+                        在
+                        <span>
+                            <span class="katex">
+                                <span class="katex-mathml">
+                                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                        <semantics>
+                                            <mrow>
+                                                <mstyle mathsize="1.44em">
+                                                    <mstyle mathcolor="red">
+                                                        <mtext mathvariant="monospace">L</mtext>
+                                                        <mstyle mathcolor="yellowgreen">
+                                                            <mtext mathvariant="monospace">C</mtext>
+                                                            <mstyle mathcolor="purple">
+                                                                <mtext mathvariant="monospace">O</mtext>
+                                                                <mstyle mathcolor="gold">
+                                                                    <mtext mathvariant="monospace">I</mtext>
+                                                                </mstyle>
+                                                            </mstyle>
+                                                        </mstyle>
+                                                    </mstyle>
+                                                </mstyle>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">
+                                                \Large\texttt{\color{red}L\color{yellowgreen}C\color{purple}O\color{gold}I}
+                                            </annotation>
+                                        </semantics>
+                                    </math>
+                                </span>
+                        <span class="katex-html" aria-hidden="true"><span class="base">
+                                        <span class="strut" style="height:0.8799984000000001em;vertical-align:0em;">
+                                        </span>
+                        <span class="mord text sizing reset-size6 size8">
+                                            <span class="mord texttt" style="color:red;">L</span><span class="mord texttt" style="color:yellowgreen;">C</span><span class="mord texttt" style="color:purple;">O</span><span class="mord texttt"
+                            style="color:gold;">I</span>
+                        </span>
+                        </span>
+                        </span>
+                        </span>
+                        </span>
+                        <br> 享受出题的欢乐
+                    </div>
+                    <img data-v-009d73c6="" src="picture/mark.png" class="qr-img">
+                    <div data-v-009d73c6="" class="info">
+                        <p data-v-009d73c6="">
+                            <a data-v-303bbf52="" data-v-009d73c6="" href="https://github.com/little-cindy/lcoi" colorscheme="default" class="color-default">
+                                仓库地址
+                            </a>
+                            <br> Developed by the
+                            <a data-v-303bbf52="" data-v-009d73c6="" href="https://github.com/luogu-dev" target="_blank" colorscheme="default" class="color-default">
+                                Luogu Dev Team
+                            </a>&
+                            <a data-v-303bbf52="" data-v-009d73c6="" href="https://github.com/little-cindy" target="_blank" colorscheme="default" class="color-default">
+                                little-cindy
+                            </a>
+                            <br> All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var btn1 = document.getElementById("DIV");
+        var A = document.getElementById("sth");
+        btn1.onclick = function() {
+            A.style.display = "block";
+            document.getElementById("uplist").onclick = function() {
+                A.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
