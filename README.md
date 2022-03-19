@@ -1,17 +1,19 @@
 ## LCOI's introduction
-LCOI(Low Conplexity Olympiad of Informatics) problem group is from [luogu](https://www.luogu.com.cn/).
+LCOI(Low Conplexity Olympiad of Informatics) 出题组来自 [洛谷](https://www.luogu.com.cn/).
 
-All of the member in LCOI is the user of luogu.
+所有的成员也都是洛谷用户。
 
-If you want to join in,you can e-mail the leader of LCOI at little_cindy@qq.com
+如果你想加入，你可以发送邮件到 little_cindy@qq.com 给出题组组长
 
-If you are an user of luogu,too.You can search 'little_cindy' in [the chat page of luogu](https://www.luogu.com.cn/chat) and send message to me or you can click this [link](https://www.luogu.com.cn/chat?uid=357311) to send message to me.
-## LCOI's home page's link
-- [Github home page](https://little-cindy.github.io/lcoi/)
-- [Luogu home page](https://www.luogu.com.cn/team/35878)
-## Releases
-You can download Zip of historical releases at [here](https://github.com/little-cindy/lcoi/releases).
-## Statistics
+如果你是一个洛谷用户，你可以在[私信页面](https://www.luogu.com.cn/chat)搜索 'little_cindy'，或者直接点击这个[链接](https://www.luogu.com.cn/chat?uid=357311)
+## LCOI主页链接
+- [Github](https://little-cindy.github.io/lcoi/)
+- [洛谷](https://www.luogu.com.cn/team/35878)
+## 版本
+你可以在 [这里](https://github.com/little-cindy/lcoi/releases) 下载历史版本
+## 投喂我们
+<https://afdian.net/@lcoi-team>
+## 统计
 ![](https://komarev.com/ghpvc/?username=little-cindy&alt=lcoi)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=little-cindy&repo=lcoi)](https://github.com/little-cindy/lcoi)
