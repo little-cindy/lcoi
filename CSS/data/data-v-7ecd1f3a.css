@@ -1,0 +1,21 @@
+div.inline[data-v-7ecd1f3a] {
+    display: inline-block
+}
+
+input[data-v-7ecd1f3a] {
+    display: none
+}
+
+.fa-input[data-v-7ecd1f3a] {
+    margin-right: .5em;
+    color: #ccc
+}
+
+input:disabled+label>.fa-input[data-v-7ecd1f3a] {
+    opacity: .4
+}
+
+input:checked+label>.fa-input[data-v-7ecd1f3a],
+input:enabled+label:hover>.fa-input[data-v-7ecd1f3a] {
+    color: var(--lfe-color--primary, #3498db)
+}

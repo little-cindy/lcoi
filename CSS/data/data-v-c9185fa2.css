@@ -1,0 +1,13 @@
+nav[data-v-c9185fa2]::after {
+    content: " ";
+    white-space: pre
+}
+
+.link[data-v-c9185fa2],
+.text[data-v-c9185fa2] {
+    color: rgba(255, 255, 255, .75)
+}
+
+.link[data-v-c9185fa2]:hover {
+    color: #fff
+}

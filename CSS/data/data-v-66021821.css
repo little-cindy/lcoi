@@ -1,0 +1,43 @@
+div[data-v-66021821] {
+    display: flex
+}
+
+button[data-v-66021821] {
+    margin-right: .5em;
+    padding: 0;
+    cursor: pointer;
+    width: 1.7em;
+    min-width: 1.7em;
+    height: 1.7em;
+    background: #fff;
+    border: 1px solid #bfbfbf;
+    border-radius: 6px
+}
+
+button.selected[data-v-66021821] {
+    background: var(--lfe-color--primary, #3498db);
+    border-color: var(--lfe-color--primary, #3498db);
+    cursor: default;
+    color: #fff
+}
+
+button[data-v-66021821]:last-child {
+    margin-right: 0
+}
+
+button[data-v-66021821]:hover {
+    border-color: var(--lfe-color--primary, #3498db)
+}
+
+button[data-v-66021821]:focus {
+    outline: 0
+}
+
+img[data-v-66021821] {
+    display: block;
+    margin: auto
+}
+
+.number[data-v-66021821] {
+    line-height: 1.2
+}

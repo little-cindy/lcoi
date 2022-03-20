@@ -1,0 +1,37 @@
+a[data-v-303bbf52] {
+    text-decoration: none
+}
+
+a.color-none[data-v-303bbf52]:hover {
+    text-decoration: none
+}
+
+.color-header[data-v-303bbf52] {
+    color: #bbb
+}
+
+.color-header[data-v-303bbf52]:hover {
+    color: #fff
+}
+
+.color-default[data-v-303bbf52],
+.color-default-noline[data-v-303bbf52] {
+    color: #3498db
+}
+
+.color-default-noline[data-v-303bbf52]:hover,
+.color-default[data-v-303bbf52]:hover {
+    color: #0056b3
+}
+
+a.color-default-noline[data-v-303bbf52]:hover {
+    text-decoration: none
+}
+
+.color-title[data-v-303bbf52] {
+    color: #666
+}
+
+.color-title[data-v-303bbf52]:hover {
+    color: #5bc0de
+}
