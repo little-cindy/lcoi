@@ -1,0 +1,48 @@
+div.tip-twitter {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.tip-twitter table.tip-table,
+div.tip-twitter table.tip-table td {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    vertical-align: middle;
+}
+
+div.tip-twitter td.tip-bg-image span {
+    display: block;
+    font: 1px/1px sans-serif;
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+}
+
+div.tip-twitter td.tip-right {
+    background-position: 100% 0;
+}
+
+div.tip-twitter td.tip-bottom {
+    background-position: 100% 100%;
+}
+
+div.tip-twitter td.tip-left {
+    background-position: 0 100%;
+}
+
+div.tip-twitter div.tip-inner {
+    background-position: -10px -10px;
+}
+
+div.tip-twitter div.tip-arrow {
+    visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+    font: 1px/1px sans-serif;
+}
