@@ -1,0 +1,17 @@
+.inner-card[data-v-051a635c] {
+    background-color: #fafafa;
+    border: 0.5px solid #e8e8e8;
+    padding: 0.375em 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box[data-v-051a635c] {
+    display: flex;
+    align-items: center;
+}
+
+.box>*[data-v-051a635c] {
+    margin-right: 1em;
+}
