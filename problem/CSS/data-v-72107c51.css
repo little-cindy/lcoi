@@ -1,0 +1,21 @@
+div[data-v-72107c51] {
+    display: flex;
+    align-items: center
+}
+
+div.inline[data-v-72107c51] {
+    display: inline-flex
+}
+
+.input-group[data-v-72107c51]>:not(:last-child),
+.input-group[data-v-72107c51]>:not(:last-child) input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none
+}
+
+.input-group[data-v-72107c51]>:not(:first-child),
+.input-group[data-v-72107c51]>:not(:first-child) input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}

@@ -1,0 +1,18 @@
+.tag[data-v-4bc82191] {
+    cursor: pointer;
+}
+
+.tag span[data-v-4bc82191] {
+    padding: 0;
+}
+
+.tag.selected span[data-v-4bc82191]:nth-child(2) {
+    cursor: pointer;
+}
+
+.tag.selected[data-v-4bc82191] {
+    background-color: var(--tag-color) !important;
+    color: #fff !important;
+    border: none !important;
+    cursor: unset;
+}

@@ -1,0 +1,80 @@
+.combo-wrapper[data-v-7b5c427c] {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    flex: 1;
+    /* Work with LInputGroup */
+    cursor: pointer;
+}
+
+.combo-wrapper.inline[data-v-7b5c427c] {
+    display: inline-flex;
+}
+
+.text[data-v-7b5c427c] {
+    /* The same as <LText> */
+    box-sizing: border-box;
+    margin-top: .2em;
+    margin-bottom: .2em;
+    flex: 1;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #fff;
+}
+
+.arrow[data-v-7b5c427c] {
+    margin-left: -1.3em;
+    margin-right: 1.3em;
+    width: 0;
+    transition-duration: .4s;
+}
+
+.shown .arrow[data-v-7b5c427c] {
+    transform: scaleY(-1);
+}
+
+.dropdown-wrap[data-v-7b5c427c] {
+    position: absolute;
+    margin-top: 2em;
+    /* Default covered by the box. */
+    max-height: 0;
+    width: 100%;
+    color: #333;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 2px;
+    border: solid 1px #eee;
+    box-shadow: 0 0 1em .1em rgba(0, 0, 0, 0.15);
+    transition: all .15s ease-out;
+    opacity: 0;
+    z-index: 9;
+}
+
+.shown .dropdown-wrap[data-v-7b5c427c] {
+    margin-top: 2.8em;
+    max-height: 15em;
+    opacity: 1;
+}
+
+ul[data-v-7b5c427c] {
+    padding: 0;
+    /* Reset. */
+    margin: 0;
+    /* Reset. */
+    max-height: 10em;
+    list-style: none;
+    overflow: auto;
+    outline: none;
+}
+
+li[data-v-7b5c427c] {
+    display: block;
+    padding: .4em .5em;
+    cursor: pointer;
+}
+
+li[data-v-7b5c427c]:hover {
+    background: #eee;
+}

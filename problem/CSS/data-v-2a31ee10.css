@@ -1,0 +1,28 @@
+.tag[data-v-2a31ee10] {
+    background: #e8e8e8;
+    border-radius: 2px;
+    padding: 1px .6em;
+    font-size: 0.876em;
+    display: inline-block;
+    color: #fff;
+
+    margin-right: 5px;
+}
+
+.tag[data-v-2a31ee10]:last-child {
+    margin-right: unset;
+}
+
+.tag>.delete[data-v-2a31ee10] {
+    margin: 0 1px 0 3px;
+    cursor: pointer;
+}
+
+.select-button[data-v-2a31ee10] {
+    margin-top: 1em;
+    display: block;
+}
+
+.select-button[data-v-2a31ee10]:first-child {
+    margin-top: 0;
+}
