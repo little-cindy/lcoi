@@ -1,0 +1,36 @@
+nav[data-v-27b2cd59] {
+    position: fixed;
+    width: 3.7em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.2;
+    z-index: 5
+}
+
+.logo-wrap[data-v-27b2cd59] {
+    display: block;
+    box-sizing: border-box;
+    padding: 1em;
+    width: 3.7em;
+    text-align: center;
+    height: 4em;
+    overflow: hidden;
+    outline: 0
+}
+
+.logo-wrap>img[data-v-27b2cd59] {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.user-nav[data-v-27b2cd59] {
+    display: none;
+    height: 3.4em;
+    align-items: center;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 1em;
+    margin: .3em;
+    padding: 0 .8em
+}

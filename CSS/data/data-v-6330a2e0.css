@@ -1,0 +1,35 @@
+.top-progress[data-v-6330a2e0] {
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 4px;
+    overflow: hidden;
+    z-index: 99
+}
+
+.bar[data-v-6330a2e0] {
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition: width .2s ease;
+    opacity: 1;
+    animation: loading-progress-data-v-6330a2e0 10s cubic-bezier(.22, .86, 0, .8);
+    animation-fill-mode: forwards
+}
+
+.done[data-v-6330a2e0] {
+    animation: none;
+    opacity: 0;
+    width: 100%;
+    transition: opacity .2s ease .2s
+}
+
+@keyframes loading-progress-data-v-6330a2e0 {
+    from {
+        width: 5%
+    }
+
+    to {
+        width: 99%
+    }
+}
