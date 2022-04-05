@@ -1,0 +1,25 @@
+sup[data-v-602e0231] {
+    display: inline-block;
+    position: relative;
+    margin-right: -.8em;
+    padding-left: .2em;
+    padding-right: .2em;
+    left: -.6em;
+    top: -.5em;
+    box-sizing: border-box;
+    min-width: 1.2em;
+    height: 1.2em;
+    font-size: .7em;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    border-radius: .6em
+}
+
+.no-text[data-v-602e0231] {
+    left: -.3em;
+    top: -.7em;
+    min-width: .5em;
+    height: .5em;
+    border-radius: .25em
+}
