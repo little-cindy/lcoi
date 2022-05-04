@@ -26,6 +26,6 @@
 
 看到这里，别着急走啊，<>点个小星星<b>再离开吧
 
-一下是我们仓库现在的状况：
+以下是我们仓库现在的状况：
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=little-cindy&repo=lcoi)](https://github.com/little-cindy/lcoi)
