@@ -1,0 +1,46 @@
+.inner-card[data-v-572457ba] {
+    background-color: #fafafa;
+    border: 0.5px solid #e8e8e8;
+    padding: 0.375em 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left[data-v-572457ba] {
+    display: flex;
+    align-items: center;
+}
+
+.left *[data-v-572457ba] {
+    margin-right: 1em;
+}
+
+.left .avatar[data-v-572457ba] {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.right .action[data-v-572457ba] {
+    margin-left: 1em;
+}
+
+.right .action[data-v-572457ba]:first-child {
+    margin-left: 0;
+}
+
+.message[data-v-572457ba] {
+    flex: 1;
+    max-width: 30em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+    .message[data-v-572457ba] {
+        max-width: 10em;
+    }
+}

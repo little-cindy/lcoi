@@ -1,0 +1,112 @@
+.feed[data-v-d26e5c98] {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.feed>.avatar[data-v-d26e5c98] {
+    flex-basis: 72px;
+    flex-shrink: 0;
+}
+
+.feed>.avatar img[data-v-d26e5c98] {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.feed>.more[data-v-d26e5c98] {
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.feed>.main[data-v-d26e5c98] {
+    display: flex;
+    flex-direction: column;
+}
+
+.feed>.main>.content[data-v-d26e5c98] {
+    margin: .5em 0;
+}
+
+/* force reset style */
+[data-v-d26e5c98] .rendered>p {
+    margin: 0 !important;
+}
+
+[data-v-d26e5c98] .rendered a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+[data-v-d26e5c98] .rendered a:hover {
+    color: #0056b3;
+}
+
+.feed>.main>.operations[data-v-d26e5c98] {
+    font-size: .875em;
+}
+
+.feed>.main>.operations>*[data-v-d26e5c98] {
+    margin-right: 2em;
+}
+
+.feed>.main>.operations>*[data-v-d26e5c98]:last-child {
+    margin-right: 0;
+}
+
+.feed>.main>.operations>.button[data-v-d26e5c98] {
+    user-select: none;
+    cursor: pointer;
+    opacity: .5;
+    transition: .5s ease all;
+}
+
+.feed>.main>.operations>.button[data-v-d26e5c98]:hover {
+    opacity: 1;
+}
+
+.operations>.button:hover.comment[data-v-d26e5c98] {
+    color: #3498db;
+}
+
+.operations>.button:hover.forward[data-v-d26e5c98] {
+    color: #52c41a;
+}
+
+.operations>.button:hover.like[data-v-d26e5c98] {
+    color: #e74c3c;
+}
+
+.dropdown-operations[data-v-d26e5c98] {
+    width: 4rem;
+    color: #333;
+    background: #fff;
+    border-radius: 2px;
+    border: solid 1px #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 1px rgba(0, 0, 0, 0.5);
+    user-select: none;
+}
+
+.dropdown-operations>ul[data-v-d26e5c98] {
+    padding: 0;
+    /* Reset. */
+    margin: 0;
+    /* Reset. */
+    max-height: 10em;
+    list-style: none;
+    outline: none;
+    font-size: .875rem;
+}
+
+.dropdown-operations>ul li[data-v-d26e5c98] {
+    display: block;
+    padding: 3px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dropdown-operations>ul li[data-v-d26e5c98]:hover {
+    background: #eee;
+}

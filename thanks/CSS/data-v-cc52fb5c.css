@@ -1,0 +1,23 @@
+button[data-v-cc52fb5c] {
+    display: inline-block;
+    flex: none;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: inherit;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    background: 0 0;
+    border-radius: 3px;
+    border: 2px solid
+}
+
+button[data-v-cc52fb5c]:disabled {
+    opacity: .65;
+    cursor: not-allowed
+}
+
+button[data-v-cc52fb5c]:hover {
+    opacity: .85
+}

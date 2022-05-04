@@ -1,0 +1,16 @@
+.collapsed-wrapper[data-v-7f3c782d] {
+    position: relative;
+}
+
+.collapsed[data-v-7f3c782d] {
+    max-height: var(--lcollapsed-height, 240px);
+    overflow-y: hidden;
+    position: relative;
+    /* otherwise the page will have loooooooooong blank at the bottom */
+}
+
+.collapsed+.expand[data-v-7f3c782d] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

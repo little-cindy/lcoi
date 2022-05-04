@@ -1,0 +1,65 @@
+.inner-card[data-v-78fafe5c] {
+    background-color: #fafafa;
+    border: 0.5px solid #e8e8e8;
+    padding: 0.375em 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.left-box[data-v-78fafe5c] {
+    flex: 4;
+}
+
+.middle-box[data-v-78fafe5c] {
+    flex: 1;
+}
+
+.right-box[data-v-78fafe5c] {
+    flex: 1;
+    flex-wrap: nowrap;
+    flex-basis: 4em;
+    text-align: left;
+}
+
+.item-title[data-v-78fafe5c] {
+    color: #404040;
+}
+
+.post-source[data-v-78fafe5c],
+.create-time[data-v-78fafe5c],
+.last-reply-time[data-v-78fafe5c],
+.last-reply-author[data-v-78fafe5c] {
+    font-size: 0.875em;
+    white-space: nowrap;
+}
+
+.create-time[data-v-78fafe5c],
+.last-reply-time[data-v-78fafe5c],
+.last-reply-author[data-v-78fafe5c] {
+    color: #7d7d7d;
+}
+
+.post-source[data-v-78fafe5c],
+.post-name[data-v-78fafe5c] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 790px) {
+    .middle-box[data-v-78fafe5c] {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .inner-card[data-v-78fafe5c] {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post-source[data-v-78fafe5c],
+    .post-name[data-v-78fafe5c] {
+        white-space: normal;
+    }
+}

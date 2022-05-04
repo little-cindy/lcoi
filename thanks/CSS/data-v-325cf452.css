@@ -1,0 +1,24 @@
+.difficulty-tags[data-v-325cf452] {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.row[data-v-325cf452] {
+    height: 34px;
+    padding: 0.25em 0.5em;
+    border: solid #e8e8e8;
+    border-width: 1px 1px 0 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.problem-count[data-v-325cf452] {
+    font-size: 0.875em;
+}
+
+.caption[data-v-325cf452] {
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.25);
+}

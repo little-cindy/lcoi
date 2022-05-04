@@ -1,0 +1,41 @@
+ul[data-v-73965038] {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: 0
+}
+
+.selection[data-v-73965038] {
+    display: flex;
+    align-items: baseline
+}
+
+.name[data-v-73965038] {
+    float: left;
+    width: 7em;
+    font-weight: 700
+}
+
+ul>li[data-v-73965038] {
+    display: inline-block;
+    margin-right: 1em;
+    transition: .3s ease all;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer
+}
+
+ul>li[data-v-73965038]:last-child {
+    margin-right: 0
+}
+
+ul>li.selected[data-v-73965038] {
+    border-radius: unset
+}
+
+ul>li.selected>span[data-v-73965038] {
+    cursor: default;
+    background-color: transparent;
+    color: var(--l-simple-select--color, var(--lfe-color--primary, #3498db));
+    border-bottom-color: var(--l-simple-select--color, var(--lfe-color--primary, #3498db))
+}

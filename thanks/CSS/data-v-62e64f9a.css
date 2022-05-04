@@ -1,0 +1,28 @@
+.inner-card[data-v-62e64f9a] {
+    background-color: #fafafa;
+    border: 0.5px solid #e8e8e8;
+    padding: 0.375em 0.75em;
+    display: flex;
+    margin: 6px .5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-left[data-v-62e64f9a] {
+    display: flex;
+}
+
+.team-id[data-v-62e64f9a] {
+    margin-right: 1em;
+}
+
+.team-name[data-v-62e64f9a] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}
+
+.team-authority[data-v-62e64f9a] {
+    white-space: nowrap;
+}

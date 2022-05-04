@@ -1,0 +1,28 @@
+.follow-container[data-v-447a6234] {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75em 0;
+}
+
+.follow-left[data-v-447a6234] {
+    display: flex;
+}
+
+.avatar[data-v-447a6234] {
+    margin-right: 10px;
+}
+
+.avatar img[data-v-447a6234] {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.description[data-v-447a6234] {
+    font-size: 0.875em;
+    padding: 0.5em 0;
+}
+
+.btn-follow[data-v-447a6234] {
+    white-space: nowrap;
+}

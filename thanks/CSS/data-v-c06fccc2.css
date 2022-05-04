@@ -1,0 +1,86 @@
+.checkbox[data-v-c06fccc2] {
+    text-align: center;
+}
+
+.header .checkbox[data-v-c06fccc2] {
+    font-size: 16px;
+}
+
+.status[data-v-c06fccc2] {
+    min-width: 2.5em;
+    width: 2.5em;
+    text-align: center;
+}
+
+.pid[data-v-c06fccc2] {
+    min-width: 5.5em;
+    width: 5.5em;
+}
+
+.tag[data-v-c06fccc2] {
+    white-space: nowrap;
+    min-width: 10em;
+}
+
+.title[data-v-c06fccc2] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.difficulty[data-v-c06fccc2] {
+    width: 8.5em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.progress[data-v-c06fccc2] {
+    min-width: 5em;
+    width: 5em;
+    text-align: center;
+}
+
+.toolbar[data-v-c06fccc2] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar-item[data-v-c06fccc2],
+.bar-title[data-v-c06fccc2] {
+    margin-right: 1em;
+    vertical-align: bottom;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.bar-item[data-v-c06fccc2]:hover {
+    color: #0056b3;
+}
+
+.icon[data-v-c06fccc2] {
+    padding-right: 0.3em;
+}
+
+.copy-input[data-v-c06fccc2] {
+    position: absolute;
+    left: -2333px;
+}
+
+.btn-checkbox[data-v-c06fccc2] {
+    margin-right: 1em;
+}
+
+.toolbar-right[data-v-c06fccc2] {
+    float: right;
+}
+
+@media (max-width: 576px) {
+    .hz-icon[data-v-c06fccc2] {
+        display: none;
+    }
+
+    .toolbar-right[data-v-c06fccc2] {
+        float: left;
+    }
+}

@@ -1,0 +1,98 @@
+.marked[data-v-5a58a989] h1 {
+    font-size: 2em
+}
+
+.marked[data-v-5a58a989] h2 {
+    font-size: 1.5em
+}
+
+.marked[data-v-5a58a989] h3 {
+    font-size: 1.17em
+}
+
+.marked[data-v-5a58a989] h5 {
+    font-size: .83em
+}
+
+.marked[data-v-5a58a989] h6 {
+    font-size: .67em
+}
+
+.marked[data-v-5a58a989] img {
+    max-width: 100%
+}
+
+.marked[data-v-5a58a989] p {
+    margin: 1rem 0
+}
+
+.marked[data-v-5a58a989] h1,
+.marked[data-v-5a58a989] h2,
+.marked[data-v-5a58a989] h3,
+.marked[data-v-5a58a989] h4,
+.marked[data-v-5a58a989] h5,
+.marked[data-v-5a58a989] h6 {
+    margin: .5rem 0
+}
+
+.marked[data-v-5a58a989] h1,
+.marked[data-v-5a58a989] h2 {
+    padding-bottom: .2em;
+    border-bottom: solid 1px #eee
+}
+
+.marked[data-v-5a58a989] ol,
+.marked[data-v-5a58a989] ul {
+    padding-left: 1.5em
+}
+
+.marked[data-v-5a58a989] ul {
+    list-style: outside disc
+}
+
+.marked[data-v-5a58a989] ol {
+    list-style: outside decimal
+}
+
+.marked[data-v-5a58a989] hr {
+    margin: 1em 0;
+    height: 0;
+    border: none;
+    border-bottom: solid 1px #eee
+}
+
+.marked[data-v-5a58a989] code,
+.marked[data-v-5a58a989] pre {
+    font-family: monospace;
+    font-size: .875em;
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px
+}
+
+.marked[data-v-5a58a989] code {
+    margin: 0 .2em;
+    padding: .1em .2em;
+    white-space: nowrap;
+    tab-size: 4;
+    -moz-tab-size: 4
+}
+
+.marked[data-v-5a58a989] pre {
+    margin: 0;
+    padding: 1em;
+    overflow-y: auto
+}
+
+.marked[data-v-5a58a989] pre>code {
+    font-size: unset;
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    border: none
+}
+
+.marked[data-v-5a58a989] li code.hljs,
+.marked[data-v-5a58a989] p code.hljs {
+    display: inline
+}

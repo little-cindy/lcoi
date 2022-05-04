@@ -1,0 +1,68 @@
+.stat[data-v-3c4577b8] {
+    display: inline-block
+}
+
+.field[data-v-3c4577b8] {
+    display: inline-block;
+    padding: 0 .8em
+}
+
+.color-default>.field[data-v-3c4577b8] {
+    color: #666;
+    border-left: 1px solid #ddd
+}
+
+.color-inverse>.field[data-v-3c4577b8] {
+    color: #fff;
+    border-left: 1px solid #fff
+}
+
+.stat>.field[data-v-3c4577b8]:first-child {
+    border-left: none
+}
+
+.key[data-v-3c4577b8],
+.value[data-v-3c4577b8] {
+    display: block;
+    text-align: center
+}
+
+.value[data-v-3c4577b8] {
+    line-height: 1.5;
+    font-weight: 700
+}
+
+@media (max-width:576px) {
+    .key[data-v-3c4577b8] {
+        margin-left: .8em;
+        font-weight: 400
+    }
+
+    .value[data-v-3c4577b8] {
+        margin-left: 1em;
+        font-weight: 400;
+        line-height: unset
+    }
+
+    .stat[data-v-3c4577b8] {
+        float: none;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row
+    }
+
+    .field[data-v-3c4577b8] {
+        padding: 0
+    }
+
+    .color-default>.field[data-v-3c4577b8],
+    .color-inverse>.field[data-v-3c4577b8] {
+        border-left: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin-bottom: .5em;
+        min-width: 50%
+    }
+}

@@ -1,0 +1,18 @@
+.tags-wrap[data-v-187aafe9] {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tag[data-v-187aafe9] {
+    margin-right: 5px;
+}
+
+.tag[data-v-187aafe9]:last-child {
+    margin-right: 0;
+}
+
+.tags-wrap.multiline[data-v-187aafe9] {
+    display: flex;
+    flex-wrap: wrap;
+}

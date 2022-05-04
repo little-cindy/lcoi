@@ -1,0 +1,19 @@
+.wrapper>*[data-v-20cf19dd] {
+    padding: .75em 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.wrapper>*[data-v-20cf19dd]:last-child {
+    border-bottom: unset;
+}
+
+.load-more[data-v-20cf19dd] {
+    text-align: center;
+    color: #bbb;
+    user-select: none;
+    min-height: 20px;
+}
+
+.load-more[data-v-20cf19dd]:hover {
+    color: #333;
+}

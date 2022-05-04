@@ -1,0 +1,25 @@
+.filter-wrapper .filters[data-v-bfb16a46] {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .3);
+    padding: .6em .8em;
+    width: max-content;
+    font-size: .875em
+}
+
+.filter-wrapper .filter-options[data-v-bfb16a46] {
+    display: inline-block
+}
+
+.filter-wrapper .filter-options>.selected[data-v-bfb16a46] {
+    color: var(--lfe-color--primary)
+}
+
+.filter-wrapper .filter-options>*[data-v-bfb16a46] {
+    margin-right: .7em;
+    user-select: none;
+    cursor: pointer
+}
+
+.filter-wrapper .filter-options[data-v-bfb16a46]:last-child {
+    margin-right: 0
+}

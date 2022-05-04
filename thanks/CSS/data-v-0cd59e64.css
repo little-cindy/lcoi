@@ -1,0 +1,27 @@
+.main[data-v-0cd59e64] {
+    display: inline-block;
+    width: calc(66.67% - .5em);
+    box-sizing: border-box;
+}
+
+.side[data-v-0cd59e64] {
+    width: calc(33.33% - .5em);
+    float: right;
+    box-sizing: border-box;
+}
+
+.side[data-v-0cd59e64] section {
+    margin-bottom: 2em;
+}
+
+@media (max-width: 768px) {
+    .main[data-v-0cd59e64] {
+        width: 100%;
+    }
+
+    .side[data-v-0cd59e64] {
+        margin: 1em 0;
+        width: 100%;
+        float: none;
+    }
+}

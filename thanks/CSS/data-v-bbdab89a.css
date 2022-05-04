@@ -1,0 +1,46 @@
+.spinner[data-v-bbdab89a],
+.spinner>div[data-v-bbdab89a] {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.spinner[data-v-bbdab89a] {
+    display: block;
+    font-size: 0;
+    color: #fff;
+}
+
+.spinner>div[data-v-bbdab89a] {
+    display: inline-block;
+    float: none;
+    background-color: currentColor;
+    border: 0 solid currentColor;
+}
+
+.spinner>div[data-v-bbdab89a] {
+    background: transparent;
+    border-bottom-color: transparent;
+    border-radius: 100%;
+    animation: circle-spinner-clip-data-v-bbdab89a 1.5s linear infinite;
+}
+
+.spinner.dark[data-v-bbdab89a] {
+    color: #333;
+}
+
+/* Animation keyframes */
+@keyframes circle-spinner-clip-data-v-bbdab89a {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

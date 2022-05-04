@@ -1,0 +1,13 @@
+.info-rows>*[data-v-3a151854] {
+    margin-bottom: var(--info-row-margin-bottom, 1em);
+    display: flex;
+    align-items: center;
+}
+
+.info-rows>*[data-v-3a151854]:last-child {
+    margin-bottom: 0;
+}
+
+.info-rows>*>*[data-v-3a151854]:first-child {
+    flex: 1 0 auto;
+}

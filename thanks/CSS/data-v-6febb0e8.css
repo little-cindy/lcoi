@@ -1,0 +1,10 @@
+.full-container[data-v-6febb0e8] {
+    display: block;
+    margin-bottom: 2em;
+}
+
+.full-container[data-v-6febb0e8]::after {
+    display: block;
+    content: '';
+    clear: both;
+}

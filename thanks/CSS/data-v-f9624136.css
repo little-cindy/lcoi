@@ -1,0 +1,16 @@
+.card[data-v-f9624136] {
+    display: block;
+    margin-bottom: 1.3em;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    box-sizing: border-box
+}
+
+.padding-none[data-v-f9624136] {
+    padding: 0
+}
+
+.padding-default[data-v-f9624136] {
+    padding: 1.3em
+}

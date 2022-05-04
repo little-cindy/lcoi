@@ -1,0 +1,36 @@
+.info-card[data-v-590f5c34] {
+    max-width: 500px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.close[data-v-590f5c34] {
+    position: absolute;
+    right: 1.5em;
+    top: 1.5em;
+    cursor: pointer;
+}
+
+[data-v-590f5c34] .row {
+    align-items: center;
+}
+
+[data-v-590f5c34] .fa-input {
+    margin-right: 0 !important;
+}
+
+.checkboxes[data-v-590f5c34] {
+    display: flex;
+}
+
+.checkboxes div[data-v-590f5c34] {
+    margin-right: 0.3em;
+}
+
+.padding[data-v-590f5c34] {
+    padding: 0.5em;
+}
+
+.buttons>button[data-v-590f5c34] {
+    margin-right: 1em;
+}
