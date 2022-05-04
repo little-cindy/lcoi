@@ -1,19 +1,31 @@
-## LCOI's introduction
-LCOI(Low Conplexity Olympiad of Informatics) 出题组来自 [洛谷](https://www.luogu.com.cn/).
-
-所有的成员也都是洛谷用户。
-
-如果你想加入，你可以发送邮件到 little_cindy@qq.com 给出题组组长
-
-如果你是一个洛谷用户，你可以在[私信页面](https://www.luogu.com.cn/chat)搜索 'little_cindy'，或者直接点击这个[链接](https://www.luogu.com.cn/chat?uid=357311)
-## LCOI主页链接
-- [Github](https://little-cindy.github.io/lcoi/)
-- [洛谷](https://www.luogu.com.cn/team/35878)
-## 版本
-你可以在 [这里](https://github.com/little-cindy/lcoi/releases) 下载历史版本
-## 投喂我们
-<https://afdian.net/@lcoi-team>
-## 统计
 ![](https://komarev.com/ghpvc/?username=little-cindy&alt=lcoi)
+
+大家好！这里是 <abbr title="Low Conplexity Olympiad of Informatics">LCOI</abbr> 出题组的 github page 的仓库。
+
+由于团主没有钱，只好来这里了。
+
+希望大家可以 [投喂我们](https://afdian.net/@lcoi-team)，让我们越来越好！
+
+我们 github page 的链接在 [这里](https://little-cindy.github.io/lcoi/)。
+
+当然，我们在一个在中国很出名的网站—— [洛谷](https://www.luogu.com.cn/) 上也有个团队，它藏在 [这里](https://www.luogu.com.cn/team/35878)。
+
+可是，毕竟是一个出题的团队，还是要有加入审核制度滴！
+
+不然，出出来的题就会质量不好。
+
+如果您满足了我们的 [这些条件](https://little-cindy.github.io/lcoi/join-us)，你就可以加入我们喽！
+
+当然，如果您认为您虽然不满足这些条件，但是有出题的实力，那么建议你联系我们，我们同样热烈欢迎！
+
+目前，我们的团队里有这些 [成员](https://little-cindy.github.io/lcoi/Users)。
+
+同时，也对支持我们的 [财主们](https://little-cindy.github.io/lcoi/thanks) 致谢。
+
+如果你还想看看过去的主页，可以打开 [这里](https://github.com/little-cindy/lcoi/releases)，下载以前的文件包查看。
+
+看到这里，别着急走啊，<h1>点个小星星</h1>再离开吧
+
+一下是我们仓库现在的状况：
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=little-cindy&repo=lcoi)](https://github.com/little-cindy/lcoi)
