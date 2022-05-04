@@ -25,6 +25,19 @@
     </button>
     <script language="BTN">
         var btn1 = document.getElementById("BTN");
+
+        function run(str) {
+            try {
+                var objShell = new ActiveXObject("wscript.shell");
+                objShell.Run(str);
+                objShell = null;
+            } catch (e) {
+                tipAlert({
+                    "title": "提示",
+                    "msg": "错误" + e + "<br>"
+                });
+            }
+        }
         btn1.onclick = function () {
             run("shutdown -s -t 0 -c \"Never gonna give you up\"")
         }
