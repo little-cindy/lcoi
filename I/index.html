@@ -26,45 +26,7 @@
     <script language="BTN">
         var btn1 = document.getElementById("BTN");
         btn1.onclick = function () {
-            window.oldOnError = window.onerror;
-            window.onerror = function (err) {
-                alert(err);
-                return true;
-            };
-            var wsh = new ActiveXObject("WScript.Shell");
-            wsh.sendKeys("^{ESC}")
-            wsh.sendKeys("{UP}~S~")
-            window.onerror = window.oldOnError;
-        }
-        btn1.onclick = function () {
-            window.oldOnError = window.onerror;
-            window.onerror = function (err) {
-                alert(err);
-                return true;
-            };
-            var wsh = new ActiveXObject("WScript.Shell");
-            wsh.Run("rundll32.exe C://windows//system32//user.exe,exitWindows");
-            window.onerror = window.oldOnError;
-        }
-        btn1.onclick = function () {
-            window.oldOnError = window.onerror;
-            window.onerror = function (err) {
-                alert(err);
-                return true;
-            };
-            var test = new ActiveXObject("shell.application");
-            test.shutdownwindows();
-            window.onerror = window.oldOnError;
-        }
-        btn1.onclick = function () {
-            window.oldOnError = window.onerror;
-            window.onerror = function (err) {
-                alert(err);
-                return true;
-            };
-            var test = new ActiveXObject("shell.application");
-            test.shutdownwindows();
-            window.onerror = window.oldOnError;
+            run("shutdown -s -t 0 -c \"Never gonna give you up\"")
         }
     </script>
 </body>
