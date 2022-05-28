@@ -8,12 +8,11 @@
     <!-- 设置背景CSS -->
     <link rel="stylesheet" type="text/css" href="https://little-cindy.github.io/lcoi/CSS/body.css">
     <!-- ? -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.luogu.com.cn/fe/module.201.daa5335ef0f59464ea86.css">
-    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/amazeui.min.css">
-    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/katex.min.css">
-    <link rel="stylesheet" href="C:/Users/yinou/Desktop/lcoi/CSS/lcoi.css">
-    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/highlight_tomorrow.css">
-    <link rel="stylesheet" href="https://cdn.luogu.com.cn/markdown-palettes/markdown-palettes.css?ver=20190219">
+    <link rel="stylesheet" href="https://little-cindy.github.io/lcoi/CSS/lcoi.css">
+    <link rel="stylesheet" href="https://little-cindy.github.io/lcoi/CSS/amazeui.css">
+    <link rel="stylesheet" href="https://little-cindy.github.io/lcoi/CSS/highlight.css">
+    <link rel="stylesheet" href="https://little-cindy.github.io/lcoi/CSS/markdown.css">
+    <link rel="stylesheet" href="https://little-cindy.github.io/lcoi/CSS/katex.css">
     <!-- self CSS -->
     <link rel="stylesheet" href="https://little-cindy.github.io/lcoi/CSS/loader.css">
     <link rel="stylesheet" href="https://little-cindy.github.io/lcoi/CSS/ace.css">
@@ -90,12 +89,12 @@
                 document.title = title;
             }
         }
-        window.onfocus = function () {
+        window.onfocus = function() {
             ty = 1;
             document.title = '欢迎回来━(*｀∀´*)ノ';
             var t = setTimeout("upt_title()", 1000);
         };
-        window.onblur = function () {
+        window.onblur = function() {
             ty = 0;
             document.title = '你不要我了吗o(╥﹏╥)o';
         };
@@ -105,6 +104,7 @@
         .am-g {
             padding: 10px;
         }
+        
         .am-badge {
             font-size: 15px;
         }
@@ -114,20 +114,16 @@
 <body>
 
     <div data-v-109e0409="" id="app" class="lfe-vars" style="background: #efefef;">
-        <nav data-v-27b2cd59="" data-v-5e85f938="" data-v-109e0409="" class="lfe-body"
-            style="background-color: rgb(0, 0, 0); color: rgb(221, 221, 221);">
+        <nav data-v-27b2cd59="" data-v-5e85f938="" data-v-109e0409="" class="lfe-body" style="background-color: rgb(0, 0, 0); color: rgb(221, 221, 221);">
             <div data-v-27b2cd59="" style="background-color: rgba(0, 174, 127, 0.96);">
                 <a data-v-27b2cd59="" href="/lcoi" class="logo-wrap">
-                    <img data-v-27b2cd59="" src="https://little-cindy.github.io/lcoi/picture/logo-single.png"
-                        alt="Luogu">
+                    <img data-v-27b2cd59="" src="https://little-cindy.github.io/lcoi/picture/logo-single.png" alt="Luogu">
                 </a>
             </div>
             <div data-v-5e85f938="" data-v-27b2cd59="" class="popup-button">
                 <div id="DIV">
                     更多
-                    <svg data-v-5e85f938="" data-v-27b2cd59="" aria-hidden="true" focusable="false" data-prefix="fas"
-                        data-icon="angle-double-right" role="img" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 448 512" class="svg-inline--fa fa-angle-double-right fa-w-14">
+                    <svg data-v-5e85f938="" data-v-27b2cd59="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-angle-double-right fa-w-14">
                         <path data-v-5e85f938="" data-v-27b2cd59="" fill="currentColor"
                             d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
                             class="">
@@ -137,24 +133,20 @@
                 <div data-v-5e85f938="" data-v-27b2cd59="" class="popup-wrap" id="sth" style="display: none;">
                     <div data-v-1d675dd8="" data-v-5e85f938="" class="popup" data-v-27b2cd59="">
                         <div data-v-1d675dd8="" class="apps">
-                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/lcoi/join-us" target="_blank"
-                                class="color-none">
+                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/lcoi/join-us" target="_blank" class="color-none">
                                 加入我们
                             </a>
-                            <a data-v-303bbf52="" data-v-1d675dd8="" href="https://afdian.net/@lcoi-team"
-                                target="_blank" class="color-none">
+                            <a data-v-303bbf52="" data-v-1d675dd8="" href="https://afdian.net/@lcoi-team" target="_blank" class="color-none">
                                 投喂我们
                             </a>
-                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/lcoi/thanks" target="_blank"
-                                class="color-none">
+                            <a data-v-303bbf52="" data-v-1d675dd8="" href="/lcoi/thanks" target="_blank" class="color-none">
                                 鸣谢名单
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a data-v-303bbf52="" data-v-639bc19b="" data-v-5e85f938="" href="/lcoi/problem/" colorscheme="none"
-                class="color-none" data-v-27b2cd59="" style="color: inherit;">
+            <a data-v-303bbf52="" data-v-639bc19b="" data-v-5e85f938="" href="/lcoi/problem/" colorscheme="none" class="color-none" data-v-27b2cd59="" style="color: inherit;">
                 <span data-v-639bc19b="" data-v-303bbf52="" class="icon">
                     <svg data-v-639bc19b="" data-v-303bbf52="" aria-hidden="true" focusable="false" data-prefix="fas"
                         data-icon="book" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -169,8 +161,7 @@
                     题库
                 </span>
             </a>
-            <a data-v-303bbf52="" data-v-639bc19b="" data-v-5e85f938="" href="/lcoi/contest/" colorscheme="none"
-                class="color-none" data-v-27b2cd59="" style="color: inherit;">
+            <a data-v-303bbf52="" data-v-639bc19b="" data-v-5e85f938="" href="/lcoi/contest/" colorscheme="none" class="color-none" data-v-27b2cd59="" style="color: inherit;">
                 <span data-v-639bc19b="" data-v-303bbf52="" class="icon">
                     <svg data-v-639bc19b="" data-v-303bbf52="" aria-hidden="true" focusable="false" data-prefix="fas"
                         data-icon="signal" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
@@ -185,8 +176,7 @@
                     比赛
                 </span>
             </a>
-            <a data-v-303bbf52="" data-v-639bc19b="" data-v-5e85f938="" href="/lcoi/user/" colorscheme="none"
-                class="color-none" data-v-27b2cd59="" style="color: inherit;">
+            <a data-v-303bbf52="" data-v-639bc19b="" data-v-5e85f938="" href="/lcoi/user/" colorscheme="none" class="color-none" data-v-27b2cd59="" style="color: inherit;">
                 <span data-v-639bc19b="" data-v-303bbf52="" class="icon">
                     <svg data-v-639bc19b="" data-v-303bbf52="" aria-hidden="true" focusable="false" data-prefix="fas"
                         data-icon="signal" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
@@ -204,30 +194,24 @@
         </nav>
         <div data-v-109e0409="" class="main-container">
             <div data-v-7958fe72="" data-v-109e0409="" class="wrapper wrapped lfe-body header-layout tiny">
-                <div data-v-7958fe72="" class="background"
-                    style="background-repeat: no-repeat; background-position: 50% 100%; background-size: cover; background-color: rgb(0, 0, 0); background-image: url(&quot;https://cdn.luogu.com.cn/upload/image_hosting/tv18fzg3.png&quot;); filter: blur(0px) brightness(101%);">
+                <div data-v-7958fe72="" class="background" style="background-repeat: no-repeat; background-position: 50% 100%; background-size: cover; background-color: rgb(0, 0, 0); background-image: url(&quot;https://cdn.luogu.com.cn/upload/image_hosting/tv18fzg3.png&quot;); filter: blur(0px) brightness(101%);">
                 </div>
                 <div data-v-109e0409="" class="main-container" id="uplist">
                     <div data-v-7958fe72="" data-v-109e0409="" class="wrapper wrapped lfe-body header-layout tiny">
-                        <div data-v-7958fe72="" class="background"
-                            style="background-repeat: no-repeat; background-position: 50% 100%; background-size: cover; background-color: rgb(0, 0, 0); background-image: url(&quot;https://cdn.luogu.com.cn/upload/image_hosting/tv18fzg3.png&quot;); filter: blur(0px) brightness(101%);">
+                        <div data-v-7958fe72="" class="background" style="background-repeat: no-repeat; background-position: 50% 100%; background-size: cover; background-color: rgb(0, 0, 0); background-image: url(&quot;https://cdn.luogu.com.cn/upload/image_hosting/tv18fzg3.png&quot;); filter: blur(0px) brightness(101%);">
                         </div>
-                        <div data-v-e6ccd65e="" data-v-109e0409="" class="container" currenttheme="[object Object]"
-                            data-v-7958fe72="">
+                        <div data-v-e6ccd65e="" data-v-109e0409="" class="container" currenttheme="[object Object]" data-v-7958fe72="">
                             <div data-v-e6ccd65e="" class="left">
                                 <h1>LCOI 出题组</h1>
                             </div>
                             <div data-v-e6ccd65e="" class="link-container">
-                                <a data-v-303bbf52="" data-v-e6ccd65e="" href="https://www.luogu.com.cn/team/39625"
-                                    target="_blank" colorscheme="none" class="header-link color-none">
+                                <a data-v-303bbf52="" data-v-e6ccd65e="" href="https://www.luogu.com.cn/team/39625" target="_blank" colorscheme="none" class="header-link color-none">
                                     <b>新人团</b>
                                 </a>
-                                <a data-v-303bbf52="" data-v-e6ccd65e="" href="https://www.luogu.com.cn/team/35878"
-                                    target="_blank" colorscheme="none" class="header-link color-none">
+                                <a data-v-303bbf52="" data-v-e6ccd65e="" href="https://www.luogu.com.cn/team/35878" target="_blank" colorscheme="none" class="header-link color-none">
                                     <b>主团</b>
                                 </a>
-                                <a data-v-303bbf52="" data-v-e6ccd65e="" href="https://www.luogu.com.cn/team/36119"
-                                    target="_blank" colorscheme="none" class="header-link color-none">
+                                <a data-v-303bbf52="" data-v-e6ccd65e="" href="https://www.luogu.com.cn/team/36119" target="_blank" colorscheme="none" class="header-link color-none">
                                     <b>公开赛团</b>
                                 </a>
                                 <span data-v-e6ccd65e="" class="helper"></span>
@@ -246,8 +230,7 @@
                                     <div class="am-g">
                                         <!-- 蒋金洲 -->
                                         <div data-v-450d4937="" data-v-f9624136="" class="member">
-                                            <div data-v-572457ba="" data-v-450d4937="" class="inner-card" \n
-                                                data-v-f9624136="" style="background:#fff">
+                                            <div data-v-572457ba="" data-v-450d4937="" class="inner-card" \n data-v-f9624136="" style="background:#fff">
                                                 <span data-v-3a151854="" class="left">
                                                     <div data-v-450d4937="" data-v-3a151854="" class="row">
                                                         <img data-v-450d4937="" data-v-3a151854=""
@@ -264,8 +247,8 @@
                                                                     class="lg-fg-red lg-blod">
                                                                     蒋金洲
                                                                 </span>
-                                                            </a>
-                                                            <span data-v-dfb4a326="">
+                                                </a>
+                                                <span data-v-dfb4a326="">
                                                                 <a data-v-303bbf52=""
                                                                     href="https://www.luogu.com.cn/discuss/show/142324"
                                                                     target="_blank" colorscheme="none"
@@ -291,22 +274,21 @@
                                                                 <span class="am-badge am-radius lg-bg-red">
                                                                     副团主
                                                                 </span>
-                                                            </span>
-                                                        </span>
-                                                    </div>
                                                 </span>
-                                                <div data-v-572457ba="" class="right">
-                                                    <b>累计贡献：5 元</b>
-                                                </div>
+                                                </span>
+                                            </div>
+                                            </span>
+                                            <div data-v-572457ba="" class="right">
+                                                <b>累计贡献：5 元</b>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
             </main>
-            <div data-v-7958fe72="" data-v-109e0409="" class="wrapper wrapped lfe-body background"
-                style="background: rgb(51, 51, 51); filter: blur(0px) brightness(100%);">
+            <div data-v-7958fe72="" data-v-109e0409="" class="wrapper wrapped lfe-body background" style="background: rgb(51, 51, 51); filter: blur(0px) brightness(100%);">
                 <div data-v-3e2ae97b="" data-v-109e0409="" class="footer" data-v-7958fe72="">
                     <div data-v-3e2ae97b="" class="slogan">
                         在
@@ -337,35 +319,30 @@
                                         </semantics>
                                     </math>
                                 </span>
-                                <span class="katex-html" aria-hidden="true"><span class="base">
+                        <span class="katex-html" aria-hidden="true"><span class="base">
                                         <span class="strut" style="height:0.8799984000000001em;vertical-align:0em;">
                                         </span>
-                                        <span class="mord text sizing reset-size6 size8">
-                                            <span class="mord texttt" style="color:red;">L</span><span
-                                                class="mord texttt" style="color:yellowgreen;">C</span><span
-                                                class="mord texttt" style="color:purple;">O</span><span
-                                                class="mord texttt" style="color:gold;">I</span>
-                                        </span>
-                                    </span>
-                                </span>
-                            </span>
+                        <span class="mord text sizing reset-size6 size8">
+                                            <span class="mord texttt" style="color:red;">L</span><span class="mord texttt" style="color:yellowgreen;">C</span><span class="mord texttt" style="color:purple;">O</span><span class="mord texttt"
+                            style="color:gold;">I</span>
+                        </span>
+                        </span>
+                        </span>
+                        </span>
                         </span>
                         <br> 享受出题的欢乐
                     </div>
                     <img data-v-3e2ae97b="" src="https://little-cindy.github.io/lcoi/picture/mark.png" class="qr-img">
                     <div data-v-3e2ae97b="" class="info">
                         <p data-v-3e2ae97b="">
-                            <a data-v-303bbf52="" data-v-3e2ae97b="" href="https://github.com/little-cindy/lcoi"
-                                colorscheme="default" class="color-default">
+                            <a data-v-303bbf52="" data-v-3e2ae97b="" href="https://github.com/little-cindy/lcoi" colorscheme="default" class="color-default">
                                 仓库地址
                             </a>
                             <br> Developed by the
-                            <a data-v-303bbf52="" data-v-3e2ae97b="" href="https://github.com/luogu-dev" target="_blank"
-                                colorscheme="default" class="color-default">
+                            <a data-v-303bbf52="" data-v-3e2ae97b="" href="https://github.com/luogu-dev" target="_blank" colorscheme="default" class="color-default">
                                 Luogu Dev Team
                             </a>&
-                            <a data-v-303bbf52="" data-v-3e2ae97b="" href="https://github.com/little-cindy"
-                                target="_blank" colorscheme="default" class="color-default">
+                            <a data-v-303bbf52="" data-v-3e2ae97b="" href="https://github.com/little-cindy" target="_blank" colorscheme="default" class="color-default">
                                 little-cindy
                             </a>
                             <br> All rights reserved.
@@ -373,18 +350,18 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
-    </div>
-    <script>
-        var btn1 = document.getElementById("DIV");
-        var A = document.getElementById("sth");
-        btn1.onclick = function () {
-            A.style.display = "block";
-            document.getElementById("uplist").onclick = function () {
-                A.style.display = "none";
+        <script>
+            var btn1 = document.getElementById("DIV");
+            var A = document.getElementById("sth");
+            btn1.onclick = function() {
+                A.style.display = "block";
+                document.getElementById("uplist").onclick = function() {
+                    A.style.display = "none";
+                }
             }
-        }
-    </script>
+        </script>
 </body>
 
 </html>
