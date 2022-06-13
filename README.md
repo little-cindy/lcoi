@@ -29,3 +29,9 @@
 以下是我们仓库现在的状况：
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=little-cindy&repo=lcoi)](https://github.com/little-cindy/lcoi)
+
+## 版本号说明
+$$
+\newcommand{\t}[2]{{{\small #1}\atop{#2}}}
+\Huge \t{版本号标志}{v} \color{red} \t{大版本}{3} \color{yellowgreen} \t{小版本}{.1} \color{purple} \t{小版本内的更新}{.0}
+$$
