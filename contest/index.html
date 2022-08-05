@@ -49,32 +49,8 @@
     <link rel="stylesheet" href="http://cdn.lcoi.tk/contest/data.css">
     <!-- cookie脚本 -->
     <script charset="utf-8" src="http://cdn.lcoi.tk/cookie.js"></script>
-    <script>
-        var title = "LCOI出题组 - 比赛列表";
-        var ty = 1;
-
-        function upt_title() {
-            if (ty == 1) {
-                document.title = title;
-            }
-        }
-        window.onfocus = function () {
-            ty = 1;
-            document.title = '欢迎回来━(*｀∀´*)ノ';
-            var t = setTimeout("upt_title()", 1000);
-        };
-        window.onblur = function () {
-            ty = 0;
-            document.title = '你不要我了吗o(╥﹏╥)o';
-        };
-        upt_title();
-    </script>
-    <style>
-        .am-g {
-            padding-left: 30px;
-            padding-right: 30px;
-        }
-    </style>
+    <script charset="utf-8" src="http://cdn.lcoi.tk/title.js"></script>
+    <script>var title = "LCOI出题组 - 比赛列表";</script>
 </head>
 
 <body>
