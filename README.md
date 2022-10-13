@@ -2,8 +2,6 @@
 
 大家好！这里是 <abbr title="Low Conplexity Olympiad of Informatics">LCOI</abbr> 出题组的 github page 的仓库。
 
-由于团主没有钱，只好来这里了。
-
 希望大家可以 [投喂我们](https://afdian.net/@lcoi-team)，让我们越来越好！
 
 我们 github page 的链接在 [这里](https://little-cindy.github.io/lcoi/)。
